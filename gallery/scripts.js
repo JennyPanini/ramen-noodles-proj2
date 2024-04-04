@@ -33,17 +33,3 @@ function removeClass(element,name) {
     }
     element.className = arr1.join(" ");
 }
-
-// Add a submit event listener to the search form
-navbarSearch.addEventListener("submit", function(e) {
-    // Get the value of the search input
-    var query = this.elements["q"].value;
-  
-    // If the query is empty, prevent the form submission
-    if (query === "") {
-      e.preventDefault();
-      alert("Please enter a keyword to search");
-    }
-  });
-  
-  

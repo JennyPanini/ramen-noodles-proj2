@@ -35,8 +35,8 @@ body {
 
   .box {
     background-color: white;
-    height: 160px;
-    width: 160px;
+    height: 150px;
+    width: 150px;
     border-radius: 20px;
     text-align: center;
     float: left;
@@ -68,32 +68,33 @@ body {
     border: none;
     outline: none;
     margin-bottom: 20px;
-    padding: 12px 16px;
+    padding: 5px 10px;
     background-color: white;
     cursor: pointer;
     border-radius: 50px;
     font-family: "Righteous", sans-serif;
+    transition: all 0.3s ease 0s;
 }
 
-#one {
-  background-color: red;
+#noodle {
+  background-color: #d3da0e;
 }
 
-#two {
-  background-color: blue;
+#snack {
+  background-color: #a7f0e1;
 }
 
-#three {
-  background-color: violet;
+#spicy {
+  background-color: rgb(233, 45, 45);
 }
 
-#four {
-  background-color: orange;
+#mild {
+  background-color: rgb(249, 228, 143);
 }
 
 
 .btn:hover {
-    background-color: white;
+    color: #ecb454;
 }
 
 
@@ -104,15 +105,19 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 50px;
+    padding: 10px 50px;
     margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 #nav-title {
     margin-right: auto;
-    font-size: 1.5em;
+    font-size: 2vw;
+}
+
+#nav-components {
+  font-size: 2vw;
 }
 
 header li {
@@ -128,13 +133,5 @@ header a {
 }
 
 header a:hover {
-    color: white;
-}
-
-#navbar-search {
-  margin: 10px 0;
-}
-
-#navbar-search input[type="text"] {
-  width: 80%;
+  color: #ecb454;
 }
