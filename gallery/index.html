@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Nongshim Review</title>
+
+  <link href="Style.css" type="text/css" rel="stylesheet"/>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Syne+Mono&display=swap');
+    </style>
+
+<header>
+   <h1 id="nav-title"><a href="https://jennypanini.github.io/project2/gallery/index.html">The Nongshim Review</a></h1>
+   <nav>
+      <ul>
+          <li><a href="index.html">Shop</a></li>
+          <li><a href="index.html">About</a></li>
+      </ul>
+
+
+      <form id="navbar-search" action="/search" method="get">
+         <input type="text" name="q" placeholder="Search...">
+         <button type="submit">
+           <span class="material-symbols-outlined">
+             search
+           </span>
+
+   </nav>  
+   
+   
+</header>
+
+ </head>
+<body>
+
+<div class="body">
+
+<div class="container1">
+<div id="buttons">
+        <button class="btn" id="one" onclick="filterObjects('all')">#all</button>
+        <button class="btn" id="two" onclick="filterObjects('noodle')">#noodle</button>
+        <button class="btn" id="three" onclick="filterObjects('snack')">#snack</button>
+        <button class="btn" id="five" onclick="filterObjects('spicy')">#spicy</button>
+        <button class="btn" id="five" onclick="filterObjects('mild')">#mild</button>
+        <button class="btn" id="four" onclick="filterObjects('champong')">#champong</button>
+        <button class="btn" id="five" onclick="filterObjects('potato')">#potato_flavor</button>
+        <button class="btn" id="five" onclick="filterObjects('kalguksoo')">#kalguksoo</button>
+        <button class="btn" id="five" onclick="filterObjects('hot-pot')">#hot_pot</button>
+        <button class="btn" id="five" onclick="filterObjects('naengmyeon')">#naengmyeon</button>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="objects">
+        <div class="box noodle">Toyota</div>
+        <div class="box noodle">Honda</div>
+        <div class="box snack potato">Orange</div>
+        <div class="box noodle">Snake</div>
+        <div class="box noodle potato">Green</div>
+        <div class="box noodle">Banana</div>
+        <div class="box noodle">Red</div>
+        <div class="box snack">Pear</div>
+        <div class="box snack">Apple</div>
+        <div class="box snack">Volvo</div>
+        <div class="box noodle">Bear</div>
+        <div class="box noodle">Monkey</div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</div>
+
+
+</div>
+ </body>
+</html>
