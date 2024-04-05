@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: #ecb454;
+    background-color: #e7e7e7;
     color: black;
     font-family: "Righteous", sans-serif;
     box-sizing: border-box;
@@ -81,6 +81,7 @@ img {
 }
 
 .welcome {
-    font-size: 2vw;
+    font-size: 4vw;
+    margin: 20px;
     text-align: center;
 }

@@ -1,5 +1,5 @@
 body {
-  background-color: #ecb454;
+    background-color: #e7e7e7;
     color: black;
     font-family: "Righteous", sans-serif;
     box-sizing: border-box;
@@ -7,9 +7,10 @@ body {
 
   header {
     background-color: white;
-    border-radius: 20px;
-    height: 10px;
+    border-radius: 10px;
+    height: 20px;
   }
+
 
 #h1 {
     font-size: 2vw;
@@ -37,11 +38,16 @@ body {
     background-color: white;
     height: 150px;
     width: 150px;
-    border-radius: 20px;
+    border-radius: 15px;
     text-align: center;
     float: left;
     margin: 5px;
     display: none;
+  }
+
+  .box:hover {
+    background-color: #921414;
+    transition: all 0.3s ease 0s;
   }
 
   .container2 {
@@ -76,25 +82,18 @@ body {
     transition: all 0.3s ease 0s;
 }
 
-#noodle {
-  background-color: #d3da0e;
+#noodle:hover, #spicy:hover, #champong:hover {
+  background-color: #921414;
 }
 
-#snack {
-  background-color: #a7f0e1;
+#all:hover, #snack:hover, #mild:hover, #potato-flavor:hover, #kalguksoo:hover, #hot-pot:hover, #naengmyeon:hover {
+  background-color: black;
 }
 
-#spicy {
-  background-color: rgb(233, 45, 45);
-}
-
-#mild {
-  background-color: rgb(249, 228, 143);
-}
 
 
 .btn:hover {
-    color: red;
+    color: white;
 }
 
 
@@ -130,8 +129,4 @@ header a {
     text-decoration: none;
     color: #212121;
     transition: all 0.3s ease 0s;
-}
-
-header a:hover {
-  color: #ecb454;
 }
