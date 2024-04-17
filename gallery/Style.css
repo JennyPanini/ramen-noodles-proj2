@@ -1,3 +1,4 @@
+/* for the entire page itself */
 body {
     background-color: #e7e7e7;
     color: black;
@@ -5,16 +6,7 @@ body {
     box-sizing: border-box;
   }
 
-  header {
-    background-color: white;
-    border-radius: 10px;
-    height: 20px;
-  }
-
-#h1 {
-    font-size: 2vw;
-  }
-
+  /* flexbox */
 .body {
   display: flex;
   flex-wrap: wrap;
@@ -46,10 +38,10 @@ body {
     display: none;
 }
 
-  img:hover {
-    transform: rotate(20deg);
-    transition: all 0.3s ease 0s;
-  }
+img:hover {
+  transform: rotate(10deg);
+  transition: all 0.3s ease 0s;
+}
 
   .container2 {
     display: flex;
@@ -71,6 +63,7 @@ body {
     display: block;
 }
 
+/* buttons */
 .btn {
     border: none;
     outline: none;
@@ -91,8 +84,6 @@ body {
   background-color: black;
 }
 
-
-
 .btn:hover {
     color: white;
 }
@@ -109,7 +100,9 @@ header {
     margin-top: 50px;
     margin-left: 70px;
     margin-right: 70px;
-    border-radius: 50px;
+    border-radius: 60px;
+    height: 30px;
+    background-color: white;
 }
 
 header:hover {
@@ -117,8 +110,12 @@ header:hover {
   transition: all 0.3s ease 0s;
 }
 
+a:hover {
+  color: white;
+}
+
 #nav-title {
-    margin-right: auto;
+  margin-right: auto;
     font-size: 2vw;
 }
 

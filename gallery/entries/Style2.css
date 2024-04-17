@@ -1,0 +1,101 @@
+body {
+    background-color: #e7e7e7;
+    color: black;
+    font-family: "Righteous", sans-serif;
+    box-sizing: border-box;
+  }
+
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 60px;
+    height: 30px;
+    background-color: white;
+}
+
+header:hover {
+  background-color: #921414;
+  transition: all 0.3s ease 0s;
+}
+
+a:hover {
+  color: white;
+}
+
+#nav-title {
+  margin-right: auto;
+    font-size: 2vw;
+}
+
+#nav-components {
+  font-size: 1.5vw;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #212121;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* content/text */
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+}
+
+.container2 {
+  display: grid;
+  grid-gap: 5px;
+}
+
+img {
+    grid-column-start: 1;
+    width: 350px; 
+    height: 350px;
+}
+
+img:hover {
+    transform: rotate(10deg);
+    transition: all 0.3s ease 0s;
+  }
+
+.text {
+    grid-column-start: 2;
+}
+
+h2, p {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* If screen size is 1000px wide or less, set font-size of <div> to 15px */
+@media screen and (max-width: 1000px) {
+    h1 {font-size: 30px}
+    .text {font-size: 10px}
+    img {width: 220px; 
+        height: 220px;}
+  }
+  
+  /* If the screen size is 1001px wide or more, set the font-size of <div> to 30px */
+  @media screen and (min-width: 1001px) {
+    h1 {font-size: 40px}
+    .text {font-size: 15px}
+    img {width: 400px; 
+        height: 400px;}
+  }
