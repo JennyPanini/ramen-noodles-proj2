@@ -30,11 +30,6 @@ a:hover {
 
 #nav-title {
   margin-right: auto;
-    font-size: 2vw;
-}
-
-#nav-components {
-  font-size: 1.5vw;
 }
 
 header li {
@@ -65,10 +60,15 @@ header a {
   grid-gap: 5px;
 }
 
-img {
+#main {
     grid-column-start: 1;
     width: 350px; 
     height: 350px;
+}
+
+#rec {
+    width: 150px;
+    height: 150px;
 }
 
 img:hover {
@@ -87,15 +87,31 @@ h2, p {
 /* If screen size is 1000px wide or less, set font-size of <div> to 15px */
 @media screen and (max-width: 1000px) {
     h1 {font-size: 30px}
-    .text {font-size: 10px}
-    img {width: 220px; 
+    h2 {font-size: 15px}
+    p {font-size: 10px}
+    #main {width: 220px; 
         height: 220px;}
+    #nav-title {font-size: 15px}
+    #nav-components {font-size: 12px}
   }
   
   /* If the screen size is 1001px wide or more, set the font-size of <div> to 30px */
   @media screen and (min-width: 1001px) {
     h1 {font-size: 40px}
-    .text {font-size: 15px}
-    img {width: 400px; 
+    h2 {font-size: 20px}
+    p {font-size: 15px}
+    #main {width: 400px; 
         height: 400px;}
+    #nav-title {font-size: 25px}
+    #nav-components {font-size: 20px}
+  }
+
+  /* If screen size is 1000px wide or less, set font-size of <div> to 15px */
+@media screen and (max-width: 559px) {
+    #main {width: 0px; 
+        height: 0px;}
+    #rec {width: 100px; 
+        height: 100px;}
+     #nav-title {font-size: 10px}
+     #nav-components {font-size: 8px}
   }
